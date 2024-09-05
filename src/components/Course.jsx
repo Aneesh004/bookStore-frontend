@@ -11,7 +11,7 @@ function Course() {
   useEffect(() => {
     const fetchBooks = async () => {
       try {
-        const response = await axios.get("http://localhost:4001/book");
+        const response = await axios.get("https://bookstore-backend-f3z4.onrender.com/book");
         setBook(response.data);
       } catch (error) {
         console.error("Error fetching books:", error);

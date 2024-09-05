@@ -13,6 +13,12 @@ function Banner() {
               Welcome to <strong>Readings & Rambles</strong>, where you can immerse yourself in the world of literature like never before. Explore the enchanting world of <span className='font-bold text-gray-900 dark:text-gray-100'>Narnia</span>, uncover the mysteries of <span className='font-bold text-gray-900 dark:text-gray-100'>Hogwarts</span>, and wander through the epic landscapes of <span className='font-bold text-gray-900 dark:text-gray-100'>Middle-earth</span>. Delve into the detective tales of <span className='font-bold text-gray-900 dark:text-gray-100'>Sherlock Holmes</span>, explore the dystopian future of <span className='font-bold text-gray-900 dark:text-gray-100'>Orwell’s 1984</span>, and experience the tragic romance of <span className='font-bold text-gray-900 dark:text-gray-100'>Gatsby’s West Egg</span>. Join our community as we journey through these literary classics and discover new stories together, making every reading experience unforgettable.
             </p>
           </div>
+          {/* New Section for "About Us" Link */}
+          <div className="mt-8">
+            <p className="text-black dark:text-white">
+              Want to learn more about us? <a href="/about-us" className="text-blue-600 hover:underline dark:text-blue-400">Click here</a>
+            </p>
+          </div>
         </div>
         <div className="order-1 w-full md:w-1/2 flex justify-center items-center mt-8">
           <img src="/banner.png" className='w-90% h-auto ml-20' alt="Banner" />
