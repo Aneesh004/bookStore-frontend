@@ -13,7 +13,7 @@ import ReviewUs from './components/ReviewUs';
 import PrivacyPolicy from './components/PrivacyPolicy';
 
 function App() {
-  const [authUser, setAuthUser] = UseAuth(); // Ensure correct hook usage
+  const [authUser, setAuthUser] = UseAuth(); 
   console.log(authUser);
   
   return (
